@@ -1,1 +1,1 @@
-# ostiket-prereqs
+# osticket-prereqs
