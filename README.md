@@ -101,15 +101,16 @@ Internet Information Services (IIS) > World Wide Web Services > Application and 
 	- Click OK, then restart IIS.
 
 7.	Configure osTicket in IIS
-    
+   
 	- Go back to the osTicket installation folder and extract all files.
 	- Open the extracted folder and copy the upload folder to: C:\inetpub\wwwroot.
 	- Rename the folder to osTicket (exact spelling, including capitalization).
 	- Restart IIS.
 
 8.	Launch osTicket
-	-	In IIS, open Sites, then select Default Web Site.
-	-	Click Browse osTicket, and it should open successfully.
+   
+	- In IIS, open Sites, then select Default Web Site.
+	- Click Browse osTicket, and it should open successfully.
 
 ---
 ![ade6](https://github.com/user-attachments/assets/26d615d1-f899-4432-bafa-0bd76f8f80f9)
