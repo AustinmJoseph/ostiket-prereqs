@@ -161,9 +161,10 @@ Internet Information Services (IIS) > World Wide Web Services > Application and 
 
 - Install HeidiSQL
 
-   - Open the osTicket installation folder and install HeidiSQL.
-   - Follow the installation steps and ensure Launch when done is checked.
-   - Open HeidiSQL and create a new session.
+    - Open the osTicket installation folder and install HeidiSQL.
+    - Follow the installation steps and ensure Launch when done is checked.
+    - Open HeidiSQL and create a new session.
+      
 	 - Enter:
 	   - Username: root
 	   - Password: ROOT (all caps)
