@@ -60,7 +60,7 @@ osTicket zip
 
 	- Download and extract the files to the Desktop.
 
-	2.	Install IIS with CGI
+2.	Install IIS with CGI
 
 	- Click Start, then open the Control Panel.
 	- Go to Programs, then click Turn Windows features on or off.
@@ -69,37 +69,37 @@ Internet Information Services (IIS) > World Wide Web Services > Application and 
 
 	- Check the box for CGI, then click OK.
 
-	3.	Install PHP Manager and Rewrite
+3.	Install PHP Manager and Rewrite
 
 	- Inside the osTicket folder, download PHP Manager and URL Rewrite.
 	- Follow the installation prompts and accept all terms.
 
-	4.	Set Up PHP
+4.	Set Up PHP
 	- Navigate to the C:\ drive and create a new folder named PHP.
 	- Go back to the downloaded zip file, extract its contents, and find the PHP folder.
 	- Move the extracted PHP files into C:\PHP.
 
-	5.	Install Required Dependencies
+5.	Install Required Dependencies
 	-	Install VC_redist.x86.
 	- Install MySQL using the Typical Setup option.
 	- Launch the MySQL Configuration Wizard and select Standard Configuration.
 	- Important: Use the same Username and Password for MySQL (e.g., ROOT in all caps).
 	- Click Next, then Execute to complete the setup.
 
-	6.	Configure IIS for PHP
+6.	Configure IIS for PHP
 	- Open IIS as Administrator.
 	- Click PHP Manager, then select Register New PHP Version.
 	- Locate the PHP folder on the C:\ drive, open it, and select the php-cgi.exe file.
 	- Click OK, then restart IIS.
 
-	7.	Configure osTicket in IIS
+7.	Configure osTicket in IIS
 	- Go back to the osTicket installation folder and extract all files.
 	- 	Open the extracted folder and copy the upload folder to:
 C:\inetpub\wwwroot.
 	- Rename the folder to osTicket (exact spelling, including capitalization).
 	- Restart IIS.
 
-	8.	Launch osTicket
+8.	Launch osTicket
 	-	In IIS, open Sites, then select Default Web Site.
 	-	Click Browse osTicket, and it should open successfully.
 
@@ -133,9 +133,12 @@ C:\inetpub\wwwroot.
 <h2>OsTicket Configuration</h2>
 
 -	Enable Missing PHP Extensions
+
 	- Open IIS and navigate to PHP Manager.
 	- Enable any missing extensions listed on the osTicket installation page.
+
 - Rename and Configure ost-config.php
+
 	-	Navigate to: C:\inetpub\wwwroot\osTicket\include.
 	- 	Find ost-sampleconfig.php and rename it to ost-config.php (exact spelling).
 	- Right-click the file and select Properties.
@@ -143,27 +146,37 @@ C:\inetpub\wwwroot.
 	- Click Disable Inheritance, then Remove all entries.
 	- Click Select a Principal, type Everyone, then check Full Control.
 	- Click OK to apply the changes.
+
 - Complete osTicket Installation
+
 	- 	On the osTicket setup screen, enter a Help Desk Name and Admin Username of your choice.
-- 	Install HeidiSQL
-  - Open the osTicket installation folder and install HeidiSQL.
+
+- Install HeidiSQL
+
+ - Open the osTicket installation folder and install HeidiSQL.
 	- Follow the installation steps and ensure Launch when done is checked.
 	- Open HeidiSQL and create a new session.
 	- Enter:
 	  - Username: root
 	  -	Password: ROOT (all caps)
 	-	If it does not connect, restart the lab and try again.
+
 - Create the osTicket Database
+
 	-	Once connected, right-click Unnamed and select Create New > Database.
 	- Name it osTicket (exact spelling).
+
 -	Finalize osTicket Setup
+
 	- Go back to the osTicket setup tab.
 	- In the SQL Database field, enter osTicket.
 	- For SQL Username, enter root.
 	- For Password, enter ROOT (all caps).
 	- Click Install.
 	- If successful, you should see a Congratulations screen.
+
 - Access osTicket Admin Panel
+
 	- Use the Staff Control Panel link to log in as an admin.
 	- Regular users can access osTicket via the main URL.
 
