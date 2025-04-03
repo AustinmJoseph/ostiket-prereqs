@@ -62,26 +62,26 @@ osTicket zip
 
 	2.	Install IIS with CGI
 
-	•	Click Start, then open the Control Panel.
-	•	Go to Programs, then click Turn Windows features on or off.
-	•	Navigate to:
+	- Click Start, then open the Control Panel.
+	- Go to Programs, then click Turn Windows features on or off.
+	- Navigate to:
 Internet Information Services (IIS) > World Wide Web Services > Application and Development Features.
 
-	•	Check the box for CGI, then click OK.
-
+	- Check the box for CGI, then click OK.
 
 	3.	Install PHP Manager and Rewrite
-	•	Inside the osTicket folder, download PHP Manager and URL Rewrite.
-	•	Follow the installation prompts and accept all terms.
+
+	- Inside the osTicket folder, download PHP Manager and URL Rewrite.
+	- Follow the installation prompts and accept all terms.
 
 	4.	Set Up PHP
-	•	Navigate to the C:\ drive and create a new folder named PHP.
-	•	Go back to the downloaded zip file, extract its contents, and find the PHP folder.
-	•	Move the extracted PHP files into C:\PHP.
+	- Navigate to the C:\ drive and create a new folder named PHP.
+	- Go back to the downloaded zip file, extract its contents, and find the PHP folder.
+	- Move the extracted PHP files into C:\PHP.
 
 	5.	Install Required Dependencies
-	•	Install VC_redist.x86.
-	•	Install MySQL using the Typical Setup option.
+	-	Install VC_redist.x86.
+	-- Install MySQL using the Typical Setup option.
 	•	Launch the MySQL Configuration Wizard and select Standard Configuration.
 	•	Important: Use the same Username and Password for MySQL (e.g., ROOT in all caps).
 	•	Click Next, then Execute to complete the setup.
