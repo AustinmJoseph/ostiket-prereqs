@@ -169,12 +169,37 @@ Internet Information Services (IIS) > World Wide Web Services > Application and 
 		- php_imap.dll
 		- php_intl.dll
 		- php_opcache.dll
+
+---
+
+![a29](https://github.com/user-attachments/assets/917f6e13-c503-408e-aeb1-362b1a1b235f)
+![ade20](https://github.com/user-attachments/assets/af017cee-2a22-4036-9df8-fe68f70d2dae)
+![ade21](https://github.com/user-attachments/assets/0abbf225-8994-4211-9743-d94b1ed5caa9)
+
+---
     
 - Rename and Configure ost-config.php
 
-	-	Navigate to: C:\inetpub\wwwroot\osTicket\include.
-	- 	Find ost-sampleconfig.php and rename it to ost-config.php (exact spelling).
+	- Navigate to: C:\inetpub\wwwroot\osTicket\include.
+   ---
+  ![ade22](https://github.com/user-attachments/assets/d4586b30-ffe6-4f49-b19f-056dba724116)
+  
+  ---
+
+	- Find ost-sampleconfig.php and rename it to ost-config.php (exact spelling).
+   ---
+  ![a35](https://github.com/user-attachments/assets/40138abd-e1e7-4a4f-bfc7-3b3297031842)
+  
+  ---
+  
 	- Right-click the file and select Properties.
+---
+![ade23](https://github.com/user-attachments/assets/ba9d74b4-dce1-43cb-916f-f15da22db145)
+![ade24](https://github.com/user-attachments/assets/c9cac959-9527-415e-82bf-f01be1dcee89)
+![a24](https://github.com/user-attachments/assets/6445e3b5-7fcb-4ab1-bdb1-5bc291417df0)
+![ade25](https://github.com/user-attachments/assets/60a8db73-7990-4f61-b0f8-7af09b7d89fe)
+
+---
 	- Go to Security > Advanced.
 	- Click Disable Inheritance, then Remove all entries.
 	- Click Select a Principal, type Everyone, then check Full Control.
@@ -194,11 +219,27 @@ Internet Information Services (IIS) > World Wide Web Services > Application and 
 	   - Username: root
 	   - Password: ROOT (all caps)
     - If it does not connect, restart the lab and try again.
+      
+---
+
+![a40](https://github.com/user-attachments/assets/530e6e4c-ae9e-4ad6-b8e9-d29336bd2d58)
+![ade26](https://github.com/user-attachments/assets/e3a567ee-c895-47d7-95c0-856b77190e2f)
+![a42](https://github.com/user-attachments/assets/b6839f55-df83-4f38-ba2e-7d7321d84546)
+
+---
+
+
 
 - Create the osTicket Database
 
 	-	Once connected, right-click Unnamed and select Create New > Database.
 	- Name it osTicket (exact spelling).
+---
+
+![ade27](https://github.com/user-attachments/assets/0229ac6f-8371-407b-b327-7a4f0bfb9527)
+![ade28](https://github.com/user-attachments/assets/5c1a57bd-8fc5-4a61-a942-6288fe300bc0)
+
+---
 
 -	Finalize osTicket Setup
 
@@ -209,45 +250,22 @@ Internet Information Services (IIS) > World Wide Web Services > Application and 
 	- Click Install.
 	- If successful, you should see a Congratulations screen.
 
+---
+
+![a45](https://github.com/user-attachments/assets/8e99c021-9e0f-4f80-bb1b-bffd5874dbef)
+
+---
+
 - Access osTicket Admin Panel
 
 	- Use the Staff Control Panel link to log in as an admin.
 	- Regular users can access osTicket via the main URL.
 ---
 
-![a29](https://github.com/user-attachments/assets/917f6e13-c503-408e-aeb1-362b1a1b235f)
-![ade20](https://github.com/user-attachments/assets/af017cee-2a22-4036-9df8-fe68f70d2dae)
-![ade21](https://github.com/user-attachments/assets/0abbf225-8994-4211-9743-d94b1ed5caa9)
-![ade22](https://github.com/user-attachments/assets/d4586b30-ffe6-4f49-b19f-056dba724116)
-![a35](https://github.com/user-attachments/assets/40138abd-e1e7-4a4f-bfc7-3b3297031842)
-![ade23](https://github.com/user-attachments/assets/ba9d74b4-dce1-43cb-916f-f15da22db145)
-![ade24](https://github.com/user-attachments/assets/c9cac959-9527-415e-82bf-f01be1dcee89)
-![a24](https://github.com/user-attachments/assets/6445e3b5-7fcb-4ab1-bdb1-5bc291417df0)
-![ade25](https://github.com/user-attachments/assets/60a8db73-7990-4f61-b0f8-7af09b7d89fe)
-![a40](https://github.com/user-attachments/assets/530e6e4c-ae9e-4ad6-b8e9-d29336bd2d58)
-![ade26](https://github.com/user-attachments/assets/e3a567ee-c895-47d7-95c0-856b77190e2f)
-![a42](https://github.com/user-attachments/assets/b6839f55-df83-4f38-ba2e-7d7321d84546)
-![ade27](https://github.com/user-attachments/assets/0229ac6f-8371-407b-b327-7a4f0bfb9527)
-![ade28](https://github.com/user-attachments/assets/5c1a57bd-8fc5-4a61-a942-6288fe300bc0)
-![a45](https://github.com/user-attachments/assets/8e99c021-9e0f-4f80-bb1b-bffd5874dbef)
 ![ade29](https://github.com/user-attachments/assets/785e3831-02ce-4426-bce4-df0e789887df)
 ![a47](https://github.com/user-attachments/assets/6df54d2e-4812-4ba0-8922-4a2cbc048506)
 
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
