@@ -61,11 +61,14 @@ osTicket zip
 	- Download and extract the files to the Desktop.
 
 	2.	Install IIS with CGI
+
 	•	Click Start, then open the Control Panel.
 	•	Go to Programs, then click Turn Windows features on or off.
 	•	Navigate to:
 Internet Information Services (IIS) > World Wide Web Services > Application and Development Features.
+
 	•	Check the box for CGI, then click OK.
+
 
 	3.	Install PHP Manager and Rewrite
 	•	Inside the osTicket folder, download PHP Manager and URL Rewrite.
