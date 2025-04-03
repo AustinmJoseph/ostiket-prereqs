@@ -57,6 +57,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 	•	Open Windows Explorer and copy this link into the address bar:
 osTicket zip
+
 	•	Download and extract the files to the Desktop.
 
 	2.	Install IIS with CGI
