@@ -80,11 +80,13 @@ Internet Information Services (IIS) > World Wide Web Services > Application and 
 	- Follow the installation prompts and accept all terms.
 
 4.	Set Up PHP
+   
 	- Navigate to the C:\ drive and create a new folder named PHP.
 	- Go back to the downloaded zip file, extract its contents, and find the PHP folder.
 	- Move the extracted PHP files into C:\PHP.
 
 5.	Install Required Dependencies
+   
 	-	Install VC_redist.x86.
 	- Install MySQL using the Typical Setup option.
 	- Launch the MySQL Configuration Wizard and select Standard Configuration.
@@ -92,15 +94,16 @@ Internet Information Services (IIS) > World Wide Web Services > Application and 
 	- Click Next, then Execute to complete the setup.
 
 6.	Configure IIS for PHP
+   
 	- Open IIS as Administrator.
 	- Click PHP Manager, then select Register New PHP Version.
 	- Locate the PHP folder on the C:\ drive, open it, and select the php-cgi.exe file.
 	- Click OK, then restart IIS.
 
 7.	Configure osTicket in IIS
+    
 	- Go back to the osTicket installation folder and extract all files.
-	- 	Open the extracted folder and copy the upload folder to:
-C:\inetpub\wwwroot.
+	- Open the extracted folder and copy the upload folder to: C:\inetpub\wwwroot.
 	- Rename the folder to osTicket (exact spelling, including capitalization).
 	- Restart IIS.
 
