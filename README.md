@@ -64,6 +64,12 @@ This tutorial outlines the steps I used to set up a ticketing system and how you
 osTicket zip
 
 	- Download and extract the files to the Desktop.
+---
+
+![ade6](https://github.com/user-attachments/assets/26d615d1-f899-4432-bafa-0bd76f8f80f9)
+![ade6 (1)](https://github.com/user-attachments/assets/de7f3a89-dd50-4527-b187-e0b8c4bc872a)
+
+---
 
 2.	Install IIS with CGI
 
@@ -73,11 +79,24 @@ osTicket zip
 Internet Information Services (IIS) > World Wide Web Services > Application and Development Features.
 
 	- Check the box for CGI, then click OK.
+---
+
+![ade9](https://github.com/user-attachments/assets/8c73396f-63af-4535-9a69-0c8b041ae979)
+![ade10](https://github.com/user-attachments/assets/2c7da748-63d7-49ea-8882-5c7a4eeae58c)
+![ade11](https://github.com/user-attachments/assets/6d4ee13f-838e-4a11-bef3-9d1a9c19bfe3)
+
+---
 
 3.	Install PHP Manager and Rewrite
 
 	- Inside the osTicket folder, download PHP Manager and URL Rewrite.
 	- Follow the installation prompts and accept all terms.
+
+---
+
+![ade12](https://github.com/user-attachments/assets/ed13d3c1-cee8-494b-95b2-36945b7ef696)
+
+---
 
 4.	Set Up PHP
    
@@ -93,12 +112,29 @@ Internet Information Services (IIS) > World Wide Web Services > Application and 
 	- Important: Use the same Username and Password for MySQL (e.g., ROOT in all caps).
 	- Click Next, then Execute to complete the setup.
 
+---
+
+![a15](https://github.com/user-attachments/assets/9609f915-8e98-4b72-97f0-61c6fba8e239)
+![a16](https://github.com/user-attachments/assets/8ab6b478-9a95-4c34-bb4a-7db6d3b2c854)
+
+---
+
+
 6.	Configure IIS for PHP
    
 	- Open IIS as Administrator.
 	- Click PHP Manager, then select Register New PHP Version.
 	- Locate the PHP folder on the C:\ drive, open it, and select the php-cgi.exe file.
 	- Click OK, then restart IIS.
+
+---
+
+![ade13](https://github.com/user-attachments/assets/324e4773-3f9a-4128-bdca-f91a2ad8b29e)
+![ade14](https://github.com/user-attachments/assets/9acf49ef-33d3-443f-a5eb-ca3281de93e6)
+![ade15](https://github.com/user-attachments/assets/06ad3091-f990-42d4-9d33-2b72a2811321)
+![ade16](https://github.com/user-attachments/assets/2a23b13b-b6a8-4392-91d6-5cacddb3937e)
+
+---
 
 7.	Configure osTicket in IIS
    
@@ -107,31 +143,20 @@ Internet Information Services (IIS) > World Wide Web Services > Application and 
 	- Rename the folder to osTicket (exact spelling, including capitalization).
 	- Restart IIS.
 
+---
+![ade16](https://github.com/user-attachments/assets/2a23b13b-b6a8-4392-91d6-5cacddb3937e)
+![ade17](https://github.com/user-attachments/assets/8679b806-a1e0-4c9c-8d73-37b7329f8836)
+![ade18](https://github.com/user-attachments/assets/4ee9906a-88cd-416d-9c59-ae99587ab691)
+
+---
 8.	Launch osTicket
    
 	- In IIS, open Sites, then select Default Web Site.
 	- Click Browse osTicket, and it should open successfully.
 
 ---
-![ade6](https://github.com/user-attachments/assets/26d615d1-f899-4432-bafa-0bd76f8f80f9)
-![ade6 (1)](https://github.com/user-attachments/assets/de7f3a89-dd50-4527-b187-e0b8c4bc872a)
-![ade9](https://github.com/user-attachments/assets/8c73396f-63af-4535-9a69-0c8b041ae979)
-![ade10](https://github.com/user-attachments/assets/2c7da748-63d7-49ea-8882-5c7a4eeae58c)
-![ade11](https://github.com/user-attachments/assets/6d4ee13f-838e-4a11-bef3-9d1a9c19bfe3)
-![ade12](https://github.com/user-attachments/assets/ed13d3c1-cee8-494b-95b2-36945b7ef696)
-![a15](https://github.com/user-attachments/assets/9609f915-8e98-4b72-97f0-61c6fba8e239)
-![a16](https://github.com/user-attachments/assets/8ab6b478-9a95-4c34-bb4a-7db6d3b2c854)
-![ade13](https://github.com/user-attachments/assets/324e4773-3f9a-4128-bdca-f91a2ad8b29e)
-![ade14](https://github.com/user-attachments/assets/9acf49ef-33d3-443f-a5eb-ca3281de93e6)
-![ade15](https://github.com/user-attachments/assets/06ad3091-f990-42d4-9d33-2b72a2811321)
-![ade16](https://github.com/user-attachments/assets/2a23b13b-b6a8-4392-91d6-5cacddb3937e)
-![ade17](https://github.com/user-attachments/assets/8679b806-a1e0-4c9c-8d73-37b7329f8836)
-![ade18](https://github.com/user-attachments/assets/4ee9906a-88cd-416d-9c59-ae99587ab691)
+
 ![ade19](https://github.com/user-attachments/assets/49b376de-8ee2-4c60-9a86-196e72d18268)
-
-
-
-
 
 ---
 
