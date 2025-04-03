@@ -146,7 +146,7 @@ C:\inetpub\wwwroot.
 - Complete osTicket Installation
 	- 	On the osTicket setup screen, enter a Help Desk Name and Admin Username of your choice.
 - 	Install HeidiSQL
- - Open the osTicket installation folder and install HeidiSQL.
+  - Open the osTicket installation folder and install HeidiSQL.
 	- Follow the installation steps and ensure Launch when done is checked.
 	- Open HeidiSQL and create a new session.
 	- Enter:
