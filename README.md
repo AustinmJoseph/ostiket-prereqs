@@ -53,7 +53,43 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <h2> OSTicket Installation </h2>
 
-Now that we are logged into our vm lets download osTicket. open the windows explorer and copy this [osTicket zip](https://drive.google.com/uc?export=download&id=1b3RBkXTLNGXbibeMuAynkfzdBC1NnqaD) and extract files on the desktop. While that is happening we are going to install **IIS** with **CGI**. click start go to the control panel go to programs then click turn windows features on or off then go to  internet Information Services > world wide web servers > Application and development features then click CHI and OK. then in the osticket folder download php manager and Rewrite go through and accept everything. then go to the c drive and make a folder called `PHP`, thnen go to the zipped file click extract file and find the PHP file you just made. then install VC_redist.x86 and mysql do typical set up then launch the wizard and do standard config. **Do Not mess the part up it will ruin the entire lab use the same password and user or write it down**, I used the user nd password ROOT in all caps hit next then execute. Open IIS as an admin open php click register new php and find the folder on the C drive and open the folder and click the grey config and restart ISS. then go back into the installation folder and extrat all on the os ticket file open file copy the **upload** folder into c:\inetpub\wwwroot and change the name to this exactly **osTicket** and then reload ISS. In ISS open site open default website and browse os ticket and it should work.
+1.	Download and Extract osTicket
+	•	Open Windows Explorer and copy this link into the address bar:
+osTicket zip
+	•	Download and extract the files to the Desktop.
+	2.	Install IIS with CGI
+	•	Click Start, then open the Control Panel.
+	•	Go to Programs, then click Turn Windows features on or off.
+	•	Navigate to:
+Internet Information Services (IIS) > World Wide Web Services > Application and Development Features.
+	•	Check the box for CGI, then click OK.
+	3.	Install PHP Manager and Rewrite
+	•	Inside the osTicket folder, download PHP Manager and URL Rewrite.
+	•	Follow the installation prompts and accept all terms.
+	4.	Set Up PHP
+	•	Navigate to the C:\ drive and create a new folder named PHP.
+	•	Go back to the downloaded zip file, extract its contents, and find the PHP folder.
+	•	Move the extracted PHP files into C:\PHP.
+	5.	Install Required Dependencies
+	•	Install VC_redist.x86.
+	•	Install MySQL using the Typical Setup option.
+	•	Launch the MySQL Configuration Wizard and select Standard Configuration.
+	•	Important: Use the same Username and Password for MySQL (e.g., ROOT in all caps).
+	•	Click Next, then Execute to complete the setup.
+	6.	Configure IIS for PHP
+	•	Open IIS as Administrator.
+	•	Click PHP Manager, then select Register New PHP Version.
+	•	Locate the PHP folder on the C:\ drive, open it, and select the php-cgi.exe file.
+	•	Click OK, then restart IIS.
+	7.	Configure osTicket in IIS
+	•	Go back to the osTicket installation folder and extract all files.
+	•	Open the extracted folder and copy the upload folder to:
+C:\inetpub\wwwroot.
+	•	Rename the folder to osTicket (exact spelling, including capitalization).
+	•	Restart IIS.
+	8.	Launch osTicket
+	•	In IIS, open Sites, then select Default Web Site.
+	•	Click Browse osTicket, and it should open successfully.
 
 ---
 ![ade6](https://github.com/user-attachments/assets/26d615d1-f899-4432-bafa-0bd76f8f80f9)
